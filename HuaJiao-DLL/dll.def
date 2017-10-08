@@ -1,0 +1,9 @@
+LIBRARY
+EXPORTS
+MakeHandshakeRequestPack
+ParseHandshakeResponsePack
+MakeLoginRequestPack
+ParseLoginResponsePack
+MakeJoinChatRoomRequestPack
+MakeQuitChatRoomRequestPack
+ParseMessagePack

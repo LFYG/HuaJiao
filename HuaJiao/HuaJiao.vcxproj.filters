@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="json11">
+      <UniqueIdentifier>{be41271f-128f-4164-ad15-56b18637949c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocol">
+      <UniqueIdentifier>{2df4866b-d0f1-4350-9138-af3d63f69d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{01c199db-8e1b-44d3-9019-16bf0470a369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="websocket">
+      <UniqueIdentifier>{4ecdc35b-41af-45da-8ec9-ec3f4a819cd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto">
+      <UniqueIdentifier>{8782b1d3-7d91-42b7-a9d7-b987e973d3e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\md5">
+      <UniqueIdentifier>{dd10a442-872e-409e-a46f-58e53cd490c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\rc4">
+      <UniqueIdentifier>{68320018-039f-4fd3-91e1-c1de79ccfe6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="crypto\gzip">
+      <UniqueIdentifier>{21431f7f-87d9-4c0d-b592-c29af6105d72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="global.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="make_pack.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="parse_pack.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="json11\json11.cpp">
+      <Filter>json11</Filter>
+    </ClCompile>
+    <ClCompile Include="websocket\easywsclient.cpp">
+      <Filter>websocket</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\ChatRoom.pb.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol\CommunicationData.pb.cc">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="crypto\md5\md5.cpp">
+      <Filter>crypto\md5</Filter>
+    </ClCompile>
+    <ClCompile Include="crypto\rc4\rc4.cpp">
+      <Filter>crypto\rc4</Filter>
+    </ClCompile>
+    <ClCompile Include="crypto\gzip\gzip.cpp">
+      <Filter>crypto\gzip</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="global.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="make_pack.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="parse_pack.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="json11\json11.hpp">
+      <Filter>json11</Filter>
+    </ClInclude>
+    <ClInclude Include="websocket\easywsclient.hpp">
+      <Filter>websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\utils.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\ChatRoom.pb.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\CommunicationData.pb.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto\md5\md5.h">
+      <Filter>crypto\md5</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto\rc4\rc4.hpp">
+      <Filter>crypto\rc4</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto\gzip\gzip.h">
+      <Filter>crypto\gzip</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
